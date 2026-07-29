@@ -2,7 +2,7 @@
 
 Bu depo, profesyonel League of Legends oyuncuları ile takım lineage'ları
 arasındaki ilişkileri yönsüz ve ağırlıklı bir bipartite graph olarak inceler.
-Ana çalışma yüzeyi `BIL403_TEK_NOTEBOOK.ipynb` dosyasıdır.
+Ana çalışma yüzeyi `code/league-graph.ipynb` dosyasıdır.
 
 ## Kapsam
 
@@ -30,7 +30,7 @@ Python 3.12 önerilir.
 python -m venv .venv
 .\.venv\Scripts\Activate.ps1
 python -m pip install -r requirements.txt
-jupyter notebook BIL403_TEK_NOTEBOOK.ipynb
+jupyter notebook code/league-graph.ipynb
 ```
 
 Notebook varsayılan olarak dosya üretmez. Çıktıları yazmak için son bölümdeki
