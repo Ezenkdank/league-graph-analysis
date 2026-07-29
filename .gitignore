@@ -1,0 +1,33 @@
+# Python environments and caches
+.venv/
+venv/
+__pycache__/
+*.py[cod]
+.pytest_cache/
+.mypy_cache/
+.ruff_cache/
+
+# Jupyter
+.ipynb_checkpoints/
+
+# Local configuration and secrets
+.env
+.env.*
+!.env.example
+
+# Generated analysis artifacts
+outputs/
+
+# Local review and editor artifacts
+.doc_review_tmp/
+.codex_tmp/
+.vscode/
+.idea/
+
+# OS metadata
+.DS_Store
+Thumbs.db
+desktop.ini
+
+# Course handout: keep locally, do not redistribute from this repository
+BİL403-503-proje-bilgi.docx

@@ -1,0 +1,456 @@
+league,original_team_name,canonical_team_name,original_team_node,canonical_team_node,changed,cluster_size,method
+CBLOL,Big Gods,Big Gods,team::biggods,team::biggods,False,1,unchanged
+CBLOL,CNB,CNB,team::cnb,team::cnb,False,2,normalized_name
+CBLOL,cnb,CNB,team::cnb,team::cnb,True,2,normalized_name
+CBLOL,FLA,FLA,team::fla,team::fla,False,1,unchanged
+CBLOL,IDM,IDM,team::idm,team::idm,False,1,unchanged
+CBLOL,INTZ Red,INTZ Red,team::intzred,team::intzred,False,1,unchanged
+CBLOL,INTZ,INTZ e-Sports,team::intz,team::intzesports,True,3,normalized_name
+CBLOL,INTZ e-Sports,INTZ e-Sports,team::intzesports,team::intzesports,False,3,normalized_name
+CBLOL,intz,INTZ e-Sports,team::intz,team::intzesports,True,3,normalized_name
+CBLOL,KaBuM B,KaBuM! Black,team::kabumb,team::kabumblack,True,3,manual_review|normalized_name
+CBLOL,KaBum Black,KaBuM! Black,team::kabumblack,team::kabumblack,True,3,manual_review|normalized_name
+CBLOL,kabum b,KaBuM! Black,team::kabumb,team::kabumblack,True,3,manual_review|normalized_name
+CBLOL,KaBuM O,KaBuM! Orange,team::kabumo,team::kabumorange,True,3,manual_review|normalized_name
+CBLOL,KaBuM Orange,KaBuM! Orange,team::kabumorange,team::kabumorange,True,3,manual_review|normalized_name
+CBLOL,kabum o,KaBuM! Orange,team::kabumo,team::kabumorange,True,3,manual_review|normalized_name
+CBLOL,KBM,KaBuM! e-Sports,team::kbm,team::kabumesports,True,2,manual_review
+CBLOL,KaBuM,KaBuM! e-Sports,team::kabum,team::kabumesports,True,2,manual_review
+CBLOL,Keyd Stars,Keyd Stars,team::keydstars,team::keydstars,False,3,manual_review|normalized_name
+CBLOL,kStars,Keyd Stars,team::kstars,team::keydstars,True,3,manual_review|normalized_name
+CBLOL,kstars,Keyd Stars,team::kstars,team::keydstars,True,3,manual_review|normalized_name
+CBLOL,OPK,OPK,team::opk,team::opk,False,1,unchanged
+CBLOL,PaiN Gaming,PaiN Gaming,team::paingaming,team::paingaming,False,4,cargo_short_plus_roster|normalized_name
+CBLOL,Pain,PaiN Gaming,team::pain,team::paingaming,True,4,cargo_short_plus_roster|normalized_name
+CBLOL,paiN,PaiN Gaming,team::pain,team::paingaming,True,4,cargo_short_plus_roster|normalized_name
+CBLOL,pain,PaiN Gaming,team::pain,team::paingaming,True,4,cargo_short_plus_roster|normalized_name
+CBLOL,PRG,ProGaming Esports,team::prg,team::progamingesports,True,2,manual_review
+CBLOL,ProGaming,ProGaming Esports,team::progaming,team::progamingesports,True,2,manual_review
+CBLOL,RDP,RDP,team::rdp,team::rdp,False,1,unchanged
+CBLOL,Razer Pichau Gaming,Razer Pichau Gaming,team::razerpichaugaming,team::razerpichaugaming,False,1,unchanged
+CBLOL,RED Canids,Red Canids,team::redcanids,team::redcanids,True,3,manual_review|normalized_name
+CBLOL,REDC,Red Canids,team::redc,team::redcanids,True,3,manual_review|normalized_name
+CBLOL,Red Canids,Red Canids,team::redcanids,team::redcanids,False,3,manual_review|normalized_name
+CBLOL,Remo Brave,Remo Brave,team::remobrave,team::remobrave,False,1,unchanged
+CBLOL,T Show,T Show,team::tshow,team::tshow,False,2,normalized_name
+CBLOL,Tshow,T Show,team::tshow,team::tshow,True,2,normalized_name
+CBLOL,ONE,Team oNe,team::one,team::teamone,True,2,normalized_name
+CBLOL,Team oNe,Team oNe,team::teamone,team::teamone,False,2,normalized_name
+CBLOL,UPC,Uppercut esports,team::upc,team::uppercutesports,True,2,manual_review
+CBLOL,Uppercut esports,Uppercut esports,team::uppercutesports,team::uppercutesports,False,2,manual_review
+CBLOL,VK,VK,team::vk,team::vk,False,1,unchanged
+CBLOL,dex,dex,team::dex,team::dex,False,1,unchanged
+CBLOL,g3x,g3x,team::g3x,team::g3x,False,1,unchanged
+CBLOL,intz r,intz r,team::intzr,team::intzr,False,1,unchanged
+CBLOL,jayob,jayob,team::jayob,team::jayob,False,1,unchanged
+LCK,AFs,Afreeca Freecs,team::afs,team::afreecafreecs,True,7,cargo_short_plus_roster|manual_review|normalized_name
+LCK,ANC,Afreeca Freecs,team::anc,team::afreecafreecs,True,7,cargo_short_plus_roster|manual_review|normalized_name
+LCK,Afreeca Freecs,Afreeca Freecs,team::afreecafreecs,team::afreecafreecs,False,7,cargo_short_plus_roster|manual_review|normalized_name
+LCK,Freecs,Afreeca Freecs,team::freecs,team::afreecafreecs,True,7,cargo_short_plus_roster|manual_review|normalized_name
+LCK,RANC,Afreeca Freecs,team::ranc,team::afreecafreecs,True,7,cargo_short_plus_roster|manual_review|normalized_name
+LCK,Rebels Anarchy,Afreeca Freecs,team::rebelsanarchy,team::afreecafreecs,True,7,cargo_short_plus_roster|manual_review|normalized_name
+LCK,afs,Afreeca Freecs,team::afs,team::afreecafreecs,True,7,cargo_short_plus_roster|manual_review|normalized_name
+LCK,CJ,CJ Entus,team::cj,team::cjentus,True,3,cargo_short_plus_roster
+LCK,CJ Entus,CJ Entus,team::cjentus,team::cjentus,False,3,cargo_short_plus_roster
+LCK,cj,CJ Entus,team::cj,team::cjentus,True,3,cargo_short_plus_roster
+LCK,DAMWON Gaming,DAMWON Gaming,team::damwongaming,team::damwongaming,False,1,unchanged
+LCK,ESC Ever,ESC Ever,team::escever,team::escever,False,1,unchanged
+LCK,Ever8 Winners,Ever8 Winners,team::ever8winners,team::ever8winners,False,1,unchanged
+LCK,GRF,GRF,team::grf,team::grf,False,1,unchanged
+LCK,GEN,Gen.G,team::gen,team::geng,True,2,manual_review
+LCK,KSV,Gen.G,team::ksv,team::geng,True,2,manual_review
+LCK,HLE,HLE,team::hle,team::hle,False,1,unchanged
+LCK,IM,Incredible Miracle,team::im,team::incrediblemiracle,True,2,cargo_short_plus_roster
+LCK,Incredible Miracle,Incredible Miracle,team::incrediblemiracle,team::incrediblemiracle,False,2,cargo_short_plus_roster
+LCK,JAG,Jin Air Green Wings,team::jag,team::jinairgreenwings,True,4,cargo_short_plus_roster|manual_review|normalized_name
+LCK,Jin Air,Jin Air Green Wings,team::jinair,team::jinairgreenwings,True,4,cargo_short_plus_roster|manual_review|normalized_name
+LCK,Jin Air Green Wings,Jin Air Green Wings,team::jinairgreenwings,team::jinairgreenwings,False,4,cargo_short_plus_roster|manual_review|normalized_name
+LCK,Jin Air Greenwings,Jin Air Green Wings,team::jinairgreenwings,team::jinairgreenwings,True,4,cargo_short_plus_roster|manual_review|normalized_name
+LCK,KT,KT,team::kt,team::kt,False,1,unchanged
+LCK,KDX,Kingzone DragonX,team::kdx,team::kingzonedragonx,True,2,manual_review
+LCK,KZ,Kingzone DragonX,team::kz,team::kingzonedragonx,True,2,manual_review
+LCK,EMF,Kongdoo Monster,team::emf,team::kongdoomonster,True,6,cargo_short_plus_roster|manual_review
+LCK,KDM,Kongdoo Monster,team::kdm,team::kongdoomonster,True,6,cargo_short_plus_roster|manual_review
+LCK,KM,Kongdoo Monster,team::km,team::kongdoomonster,True,6,cargo_short_plus_roster|manual_review
+LCK,Kongdoo,Kongdoo Monster,team::kongdoo,team::kongdoomonster,True,6,cargo_short_plus_roster|manual_review
+LCK,Kongdoo Monster,Kongdoo Monster,team::kongdoomonster,team::kongdoomonster,False,6,cargo_short_plus_roster|manual_review
+LCK,km,Kongdoo Monster,team::km,team::kongdoomonster,True,6,cargo_short_plus_roster|manual_review
+LCK,LZ,Longzhu Gaming,team::lz,team::longzhugaming,True,2,manual_review
+LCK,Longzhu,Longzhu Gaming,team::longzhu,team::longzhugaming,True,2,manual_review
+LCK,MVP,MVP,team::mvp,team::mvp,False,1,unchanged
+LCK,NJE,NaJin e-mFire,team::nje,team::najinemfire,True,3,manual_review|normalized_name
+LCK,NaJin,NaJin e-mFire,team::najin,team::najinemfire,True,3,manual_review|normalized_name
+LCK,nje,NaJin e-mFire,team::nje,team::najinemfire,True,3,manual_review|normalized_name
+LCK,GE Tigers,ROX Tigers,team::getigers,team::roxtigers,True,6,manual_review
+LCK,GET,ROX Tigers,team::get,team::roxtigers,True,6,manual_review
+LCK,KOO,ROX Tigers,team::koo,team::roxtigers,True,6,manual_review
+LCK,KOO Tigers,ROX Tigers,team::kootigers,team::roxtigers,True,6,manual_review
+LCK,ROX Tigers,ROX Tigers,team::roxtigers,team::roxtigers,False,6,manual_review
+LCK,ROXT,ROX Tigers,team::roxt,team::roxtigers,True,6,manual_review
+LCK,SANDBOX Gaming,SANDBOX Gaming,team::sandboxgaming,team::sandboxgaming,False,2,normalized_name
+LCK,Sandbox,SANDBOX Gaming,team::sandbox,team::sandboxgaming,True,2,normalized_name
+LCK,SBENU,SBENU,team::sbenu,team::sbenu,False,2,normalized_name
+LCK,sbenu,SBENU,team::sbenu,team::sbenu,True,2,normalized_name
+LCK,SK Telecom,SK Telecom T1,team::sktelecom,team::sktelecomt1,True,4,cargo_short_plus_roster|manual_review
+LCK,SK Telecom T1,SK Telecom T1,team::sktelecomt1,team::sktelecomt1,False,4,cargo_short_plus_roster|manual_review
+LCK,SKT,SK Telecom T1,team::skt,team::sktelecomt1,True,4,cargo_short_plus_roster|manual_review
+LCK,SKT T1,SK Telecom T1,team::sktt1,team::sktelecomt1,True,4,cargo_short_plus_roster|manual_review
+LCK,Samsung,Samsung Galaxy,team::samsung,team::samsunggalaxy,True,2,manual_review
+LCK,Samsung Galaxy,Samsung Galaxy,team::samsunggalaxy,team::samsunggalaxy,False,2,manual_review
+LCK,bbq,bbq,team::bbq,team::bbq,False,1,unchanged
+LCK,kt,kt,team::kt,team::kt,False,1,unchanged
+LCL,ANX,Albus NoX Luna,team::anx,team::albusnoxluna,True,2,manual_review
+LCL,Hard Random,Albus NoX Luna,team::hardrandom,team::albusnoxluna,True,2,manual_review
+LCL,CD,CD,team::cd,team::cd,False,1,unchanged
+LCL,Core Mind Games,Core Mind Games,team::coremindgames,team::coremindgames,False,1,unchanged
+LCL,Corn (CIS Team),Corn (CIS Team),team::corncisteam,team::corncisteam,False,1,unchanged
+LCL,DA,DA,team::da,team::da,False,1,unchanged
+LCL,Der Zentral Magier,Der Zentral Magier,team::derzentralmagier,team::derzentralmagier,False,1,unchanged
+LCL,Differential,Differential,team::differential,team::differential,False,1,unchanged
+LCL,Dragon,Dragon,team::dragon,team::dragon,False,2,normalized_name
+LCL,dragon,Dragon,team::dragon,team::dragon,True,2,normalized_name
+LCL,EPG,EPG,team::epg,team::epg,False,1,unchanged
+LCL,FPD,FPD,team::fpd,team::fpd,False,1,unchanged
+LCL,FPI,FPI,team::fpi,team::fpi,False,1,unchanged
+LCL,FPO,FPO,team::fpo,team::fpo,False,1,unchanged
+LCL,FPP,FPP,team::fpp,team::fpp,False,1,unchanged
+LCL,FPZ,FPZ,team::fpz,team::fpz,False,1,unchanged
+LCL,Gambit.CIS,Gambit.CIS,team::gambitcis,team::gambitcis,False,1,unchanged
+LCL,Grandma Lovers,Grandma Lovers,team::grandmalovers,team::grandmalovers,False,1,unchanged
+LCL,INFINITY CHALLENGE,INFINITY CHALLENGE,team::infinitychallenge,team::infinitychallenge,False,1,unchanged
+LCL,KEK,KEK,team::kek,team::kek,False,1,unchanged
+LCL,M19,M19,team::m19,team::m19,False,1,unchanged
+LCL,MFN,MFN,team::mfn,team::mfn,False,1,unchanged
+LCL,Moscow Five.CIS,Moscow Five.CIS,team::moscowfivecis,team::moscowfivecis,False,1,unchanged
+LCL,NV.CIS,Natus Vincere.CIS,team::nvcis,team::natusvincerecis,True,3,cargo_short_plus_roster|manual_review
+LCL,Na'Vi.CIS,Natus Vincere.CIS,team::navicis,team::natusvincerecis,True,3,cargo_short_plus_roster|manual_review
+LCL,Natus Vincere.CIS,Natus Vincere.CIS,team::natusvincerecis,team::natusvincerecis,False,3,cargo_short_plus_roster|manual_review
+LCL,RoX (2014 CIS Team),RoX (2014 CIS Team),team::rox2014cisteam,team::rox2014cisteam,False,1,unchanged
+LCL,RoX CIS,RoX CIS,team::roxcis,team::roxcis,False,1,unchanged
+LCL,Sunshine in L.A.,Sunshine in L.A.,team::sunshineinla,team::sunshineinla,False,1,unchanged
+LCL,Supra Esports,Supra Esports,team::supraesports,team::supraesports,False,1,unchanged
+LCL,Team Empire,Team Empire,team::teamempire,team::teamempire,False,1,unchanged
+LCL,Just,Team Just,team::just,team::teamjust,True,3,normalized_name
+LCL,Team Just,Team Just,team::teamjust,team::teamjust,False,3,normalized_name
+LCL,just,Team Just,team::just,team::teamjust,True,3,normalized_name
+LCL,Team Just Alpha,Team Just Alpha,team::teamjustalpha,team::teamjustalpha,False,1,unchanged
+LCL,The Largest Salary,The Largest Salary,team::thelargestsalary,team::thelargestsalary,False,1,unchanged
+LCL,Unicorns Of Love.CIS,Unicorns Of Love.CIS,team::unicornsoflovecis,team::unicornsoflovecis,False,1,unchanged
+LCL,VAE,VAE,team::vae,team::vae,False,1,unchanged
+LCL,VP,VP,team::vp,team::vp,False,1,unchanged
+LCL,Vaevictis eSports,Vaevictis eSports,team::vaevictisesports,team::vaevictisesports,False,1,unchanged
+LCL,Vega Squadron,Vega Squadron,team::vegasquadron,team::vegasquadron,False,1,unchanged
+LCL,YE,YE,team::ye,team::ye,False,1,unchanged
+LCL,cd,cd,team::cd,team::cd,False,1,unchanged
+LCL,DWS,dws,team::dws,team::dws,True,2,normalized_name
+LCL,dws,dws,team::dws,team::dws,False,2,normalized_name
+LCL,gpx,gpx,team::gpx,team::gpx,False,1,unchanged
+LCL,hr,hr,team::hr,team::hr,False,1,unchanged
+LCL,iv,iv,team::iv,team::iv,False,1,unchanged
+LCL,m5cis,m5cis,team::m5cis,team::m5cis,False,1,unchanged
+LCL,Sol,sol,team::sol,team::sol,True,2,normalized_name
+LCL,sol,sol,team::sol,team::sol,False,2,normalized_name
+LCL,vp,vp,team::vp,team::vp,False,1,unchanged
+LCL,ye,ye,team::ye,team::ye,False,1,unchanged
+LCS,100,100,team::100,team::100,False,1,unchanged
+LCS,Apex Gaming,Apex Gaming,team::apexgaming,team::apexgaming,False,1,unchanged
+LCS,C9,C9,team::c9,team::c9,False,1,unchanged
+LCS,CLG,CLG,team::clg,team::clg,False,1,unchanged
+LCS,Call Gaming,Call Gaming,team::callgaming,team::callgaming,False,1,unchanged
+LCS,Clutch,Clutch Gaming,team::clutch,team::clutchgaming,True,2,normalized_name
+LCS,Clutch Gaming,Clutch Gaming,team::clutchgaming,team::clutchgaming,False,2,normalized_name
+LCS,Coast,Coast,team::coast,team::coast,False,1,unchanged
+LCS,DIG,DIG,team::dig,team::dig,False,1,unchanged
+LCS,EFX,Echo Fox,team::efx,team::echofox,True,2,manual_review
+LCS,Echo Fox,Echo Fox,team::echofox,team::echofox,False,2,manual_review
+LCS,F5,F5,team::f5,team::f5,False,1,unchanged
+LCS,FIS,FIS,team::fis,team::fis,False,1,unchanged
+LCS,FSN,FSN,team::fsn,team::fsn,False,1,unchanged
+LCS,FLY,FlyQuest,team::fly,team::flyquest,True,2,cargo_short_plus_roster
+LCS,FlyQuest,FlyQuest,team::flyquest,team::flyquest,False,2,cargo_short_plus_roster
+LCS,GGS,Golden Guardians,team::ggs,team::goldenguardians,True,2,manual_review
+LCS,Golden Guardians,Golden Guardians,team::goldenguardians,team::goldenguardians,False,2,manual_review
+LCS,Curse Academy,Gravity,team::curseacademy,team::gravity,True,2,manual_review
+LCS,GV,Gravity,team::gv,team::gravity,True,2,manual_review
+LCS,IMT,Immortals,team::imt,team::immortals,True,2,cargo_short_plus_roster
+LCS,Immortals,Immortals,team::immortals,team::immortals,False,2,cargo_short_plus_roster
+LCS,Monster Kittens,Monster Kittens,team::monsterkittens,team::monsterkittens,False,1,unchanged
+LCS,NME,NME,team::nme,team::nme,False,1,unchanged
+LCS,NRG Esports,NRG Esports,team::nrgesports,team::nrgesports,False,1,unchanged
+LCS,NTR,NTR,team::ntr,team::ntr,False,1,unchanged
+LCS,OPT,OpTic Gaming,team::opt,team::opticgaming,True,2,cargo_short_plus_roster
+LCS,OpTic Gaming,OpTic Gaming,team::opticgaming,team::opticgaming,False,2,cargo_short_plus_roster
+LCS,P1,P1,team::p1,team::p1,False,1,unchanged
+LCS,Renegades,Renegades,team::renegades,team::renegades,False,1,unchanged
+LCS,T8,T8,team::t8,team::t8,False,1,unchanged
+LCS,TDK,TDK,team::tdk,team::tdk,False,1,unchanged
+LCS,TIP,TIP,team::tip,team::tip,False,1,unchanged
+LCS,TSM,TSM,team::tsm,team::tsm,False,1,unchanged
+LCS,NV,Team EnVyUs,team::nv,team::teamenvyus,True,2,cargo_short_plus_roster
+LCS,Team EnVyUs,Team EnVyUs,team::teamenvyus,team::teamenvyus,False,2,cargo_short_plus_roster
+LCS,TL,Team Liquid,team::tl,team::teamliquid,True,2,cargo_short_plus_roster
+LCS,Team Liquid,Team Liquid,team::teamliquid,team::teamliquid,False,2,cargo_short_plus_roster
+LCS,Team LoLPro,Team LoLPro,team::teamlolpro,team::teamlolpro,False,1,unchanged
+LCS,Winterfox,Winterfox,team::winterfox,team::winterfox,False,1,unchanged
+LCS,ZEN,ZEN,team::zen,team::zen,False,1,unchanged
+LCS,compLexity.Black,compLexity.Black,team::complexityblack,team::complexityblack,False,1,unchanged
+LCS,compLexity.White,compLexity.White,team::complexitywhite,team::complexitywhite,False,1,unchanged
+LEC,Ascension,Ascension,team::ascension,team::ascension,False,1,unchanged
+LEC,CW,Copenhagen Wolves,team::cw,team::copenhagenwolves,True,2,cargo_short_plus_roster
+LEC,Copenhagen Wolves,Copenhagen Wolves,team::copenhagenwolves,team::copenhagenwolves,False,2,cargo_short_plus_roster
+LEC,Cyber Gaming,Cyber Gaming,team::cybergaming,team::cybergaming,False,1,unchanged
+LEC,DD,DD,team::dd,team::dd,False,1,unchanged
+LEC,EL,Elements,team::el,team::elements,True,2,cargo_short_plus_roster
+LEC,Elements,Elements,team::elements,team::elements,False,2,cargo_short_plus_roster
+LEC,FNC,Fnatic,team::fnc,team::fnatic,True,2,cargo_short_plus_roster
+LEC,Fnatic,Fnatic,team::fnatic,team::fnatic,False,2,cargo_short_plus_roster
+LEC,G2,G2,team::g2,team::g2,False,1,unchanged
+LEC,Gambit,Gambit Gaming,team::gambit,team::gambitgaming,True,2,manual_review
+LEC,Gambit Gaming.EU,Gambit Gaming,team::gambitgamingeu,team::gambitgaming,True,2,manual_review
+LEC,Giants Gaming,Giants Gaming,team::giantsgaming,team::giantsgaming,False,1,unchanged
+LEC,H2K,H2K,team::h2k,team::h2k,False,1,unchanged
+LEC,MIL,MIL,team::mil,team::mil,False,1,unchanged
+LEC,MYM,MeetYourMakers,team::mym,team::meetyourmakers,True,2,cargo_short_plus_roster
+LEC,MeetYourMakers,MeetYourMakers,team::meetyourmakers,team::meetyourmakers,False,2,cargo_short_plus_roster
+LEC,Meloncats,Meloncats,team::meloncats,team::meloncats,False,1,unchanged
+LEC,MSF,Misfits,team::msf,team::misfits,True,2,manual_review
+LEC,Misfits EU,Misfits,team::misfitseu,team::misfits,True,2,manual_review
+LEC,Mysterious Monkeys,Mysterious Monkeys,team::mysteriousmonkeys,team::mysteriousmonkeys,False,1,unchanged
+LEC,NIP,NIP,team::nip,team::nip,False,1,unchanged
+LEC,Origen,Origen,team::origen,team::origen,False,1,unchanged
+LEC,RG,RG,team::rg,team::rg,False,1,unchanged
+LEC,RGE,RGE,team::rge,team::rge,False,1,unchanged
+LEC,ROC,ROCCAT,team::roc,team::roccat,True,2,manual_review
+LEC,ROCCAT,ROCCAT,team::roccat,team::roccat,False,2,manual_review
+LEC,S04,S04,team::s04,team::s04,False,1,unchanged
+LEC,SK,SK,team::sk,team::sk,False,1,unchanged
+LEC,SKP,SKP,team::skp,team::skp,False,1,unchanged
+LEC,SPY,Splyce,team::spy,team::splyce,True,2,cargo_short_plus_roster
+LEC,Splyce,Splyce,team::splyce,team::splyce,False,2,cargo_short_plus_roster
+LEC,Team Strix,Team Strix,team::teamstrix,team::teamstrix,False,1,unchanged
+LEC,ThunderBot SPARTA,ThunderBot SPARTA,team::thunderbotsparta,team::thunderbotsparta,False,1,unchanged
+LEC,Tricked eSports,Tricked eSports,team::trickedesports,team::trickedesports,False,1,unchanged
+LEC,UOL,UOL,team::uol,team::uol,False,1,unchanged
+LEC,VIT,VIT,team::vit,team::vit,False,1,unchanged
+LEC,XL,XL,team::xl,team::xl,False,1,unchanged
+LEC,gamers2,gamers2,team::gamers2,team::gamers2,False,1,unchanged
+LEC,n!faculty,n!faculty,team::nfaculty,team::nfaculty,False,1,unchanged
+LJL,7h,7th Heaven,team::7h,team::7thheaven,True,3,cargo_short_plus_roster|normalized_name
+LJL,7th Heaven,7th Heaven,team::7thheaven,team::7thheaven,False,3,cargo_short_plus_roster|normalized_name
+LJL,7th heaven,7th Heaven,team::7thheaven,team::7thheaven,True,3,cargo_short_plus_roster|normalized_name
+LJL,AXZ,AXZ,team::axz,team::axz,False,1,unchanged
+LJL,ApeX R Gaming,ApeX R Gaming,team::apexrgaming,team::apexrgaming,False,2,cargo_short_plus_roster
+LJL,ar,ApeX R Gaming,team::ar,team::apexrgaming,True,2,cargo_short_plus_roster
+LJL,BCO,Burning Core,team::bco,team::burningcore,True,2,manual_review
+LJL,Burning Core,Burning Core,team::burningcore,team::burningcore,False,2,manual_review
+LJL,CG ACT,Crest Gaming Act,team::cgact,team::crestgamingact,True,2,manual_review
+LJL,Crest Gaming Act,Crest Gaming Act,team::crestgamingact,team::crestgamingact,False,2,manual_review
+LJL,DFM,DetonatioN FocusMe,team::dfm,team::detonationfocusme,True,5,cargo_short_plus_roster|manual_review|normalized_name
+LJL,Det FM,DetonatioN FocusMe,team::detfm,team::detonationfocusme,True,5,cargo_short_plus_roster|manual_review|normalized_name
+LJL,DetonatioN FocusMe,DetonatioN FocusMe,team::detonationfocusme,team::detonationfocusme,False,5,cargo_short_plus_roster|manual_review|normalized_name
+LJL,Detonation FocusMe,DetonatioN FocusMe,team::detonationfocusme,team::detonationfocusme,True,5,cargo_short_plus_roster|manual_review|normalized_name
+LJL,det fm,DetonatioN FocusMe,team::detfm,team::detonationfocusme,True,5,cargo_short_plus_roster|manual_review|normalized_name
+LJL,DetonatioN RabbitFive,DetonatioN RabbitFive,team::detonationrabbitfive,team::detonationrabbitfive,False,2,normalized_name
+LJL,Detonation RabbitFive,DetonatioN RabbitFive,team::detonationrabbitfive,team::detonationrabbitfive,True,2,normalized_name
+LJL,Ozone Rampage,Ozone Rampage,team::ozonerampage,team::ozonerampage,False,2,manual_review
+LJL,oz rpg,Ozone Rampage,team::ozrpg,team::ozonerampage,True,2,manual_review
+LJL,PGM,PGM,team::pgm,team::pgm,False,1,unchanged
+LJL,RPG,RPG,team::rpg,team::rpg,False,1,unchanged
+LJL,RabbitFive,RabbitFive,team::rabbitfive,team::rabbitfive,False,2,cargo_short_plus_roster
+LJL,rbf,RabbitFive,team::rbf,team::rabbitfive,True,2,cargo_short_plus_roster
+LJL,RJ,Rascal Jester,team::rj,team::rascaljester,True,3,cargo_short_plus_roster
+LJL,Rascal Jester,Rascal Jester,team::rascaljester,team::rascaljester,False,3,cargo_short_plus_roster
+LJL,rj,Rascal Jester,team::rj,team::rascaljester,True,3,cargo_short_plus_roster
+LJL,SCARZ,SCARZ,team::scarz,team::scarz,False,1,unchanged
+LJL,Salvage Javelin,Salvage Javelin,team::salvagejavelin,team::salvagejavelin,False,2,cargo_short_plus_roster
+LJL,sj,Salvage Javelin,team::sj,team::salvagejavelin,True,2,cargo_short_plus_roster
+LJL,Sengoku Gaming,Sengoku Gaming,team::sengokugaming,team::sengokugaming,False,1,unchanged
+LJL,TBE,Team BlackEye,team::tbe,team::teamblackeye,True,2,cargo_short_plus_roster
+LJL,Team BlackEye,Team BlackEye,team::teamblackeye,team::teamblackeye,False,2,cargo_short_plus_roster
+LJL,USG,USG,team::usg,team::usg,False,1,unchanged
+LJL,V3,V3,team::v3,team::v3,False,1,unchanged
+LJL,det rf,det rf,team::detrf,team::detrf,False,1,unchanged
+LMS,AHQ,AHQ,team::ahq,team::ahq,False,2,normalized_name
+LMS,ahq,AHQ,team::ahq,team::ahq,True,2,normalized_name
+LMS,ALF,ALF,team::alf,team::alf,False,1,unchanged
+LMS,Assassin Sniper,Assassin Sniper,team::assassinsniper,team::assassinsniper,False,1,unchanged
+LMS,CGES,COUGAR E-Sport,team::cges,team::cougaresport,True,2,manual_review
+LMS,COUGAR E-Sport,COUGAR E-Sport,team::cougaresport,team::cougaresport,False,2,manual_review
+LMS,DLY,DarlingYou,team::dly,team::darlingyou,True,3,cargo_short_plus_roster|manual_review
+LMS,DarlingYou,DarlingYou,team::darlingyou,team::darlingyou,False,3,cargo_short_plus_roster|manual_review
+LMS,NGU,DarlingYou,team::ngu,team::darlingyou,True,3,cargo_short_plus_roster|manual_review
+LMS,DoR,DoR,team::dor,team::dor,False,1,unchanged
+LMS,Dragon Gate Team,Dragon Gate Team,team::dragongateteam,team::dragongateteam,False,1,unchanged
+LMS,FBL,FBL,team::fbl,team::fbl,False,2,normalized_name
+LMS,fbl,FBL,team::fbl,team::fbl,True,2,normalized_name
+LMS,FW,Flash Wolves,team::fw,team::flashwolves,True,5,cargo_short_plus_roster|manual_review|normalized_name
+LMS,Flash Wolves,Flash Wolves,team::flashwolves,team::flashwolves,False,5,cargo_short_plus_roster|manual_review|normalized_name
+LMS,fw,Flash Wolves,team::fw,team::flashwolves,True,5,cargo_short_plus_roster|manual_review|normalized_name
+LMS,yoe.FW,Flash Wolves,team::yoefw,team::flashwolves,True,5,cargo_short_plus_roster|manual_review|normalized_name
+LMS,yoeFW,Flash Wolves,team::yoefw,team::flashwolves,True,5,cargo_short_plus_roster|manual_review|normalized_name
+LMS,G-Rex,G-Rex,team::grex,team::grex,False,1,unchanged
+LMS,HKA,HKA,team::hka,team::hka,False,1,unchanged
+LMS,HKES,Hong Kong Esports,team::hkes,team::hongkongesports,True,3,cargo_short_plus_roster|normalized_name
+LMS,Hong Kong Esports,Hong Kong Esports,team::hongkongesports,team::hongkongesports,False,3,cargo_short_plus_roster|normalized_name
+LMS,hkes,Hong Kong Esports,team::hkes,team::hongkongesports,True,3,cargo_short_plus_roster|normalized_name
+LMS,JT,J Team,team::jt,team::jteam,True,3,cargo_short_plus_roster|manual_review
+LMS,TPA,J Team,team::tpa,team::jteam,True,3,cargo_short_plus_roster|manual_review
+LMS,Taipei Assassins,J Team,team::taipeiassassins,team::jteam,True,3,cargo_short_plus_roster|manual_review
+LMS,LGS,Logitech G Snipers,team::lgs,team::logitechgsnipers,True,4,cargo_short_plus_roster|manual_review|normalized_name
+LMS,LOG S,Logitech G Snipers,team::logs,team::logitechgsnipers,True,4,cargo_short_plus_roster|manual_review|normalized_name
+LMS,LOGS,Logitech G Snipers,team::logs,team::logitechgsnipers,True,4,cargo_short_plus_roster|manual_review|normalized_name
+LMS,Logitech G Snipers,Logitech G Snipers,team::logitechgsnipers,team::logitechgsnipers,False,4,cargo_short_plus_roster|manual_review|normalized_name
+LMS,MC,Machi Crew,team::mc,team::machicrew,True,2,cargo_short_plus_roster
+LMS,Machi Crew,Machi Crew,team::machicrew,team::machicrew,False,2,cargo_short_plus_roster
+LMS,M17,Machi E-Sports,team::m17,team::machiesports,True,2,manual_review
+LMS,Machi E-Sports,Machi E-Sports,team::machiesports,team::machiesports,False,2,manual_review
+LMS,MADT,Mad Team,team::madt,team::madteam,True,2,manual_review
+LMS,Mad Team,Mad Team,team::madteam,team::madteam,False,2,manual_review
+LMS,MSE,Midnight Sun Esports,team::mse,team::midnightsunesports,True,2,cargo_short_plus_roster
+LMS,Midnight Sun Esports,Midnight Sun Esports,team::midnightsunesports,team::midnightsunesports,False,2,cargo_short_plus_roster
+LMS,Raise,Raise Gaming,team::raise,team::raisegaming,True,2,normalized_name
+LMS,Raise Gaming,Raise Gaming,team::raisegaming,team::raisegaming,False,2,normalized_name
+LMS,Team Afro,Team Afro,team::teamafro,team::teamafro,False,1,unchanged
+LMS,Team Mist,Team Mist,team::teammist,team::teammist,False,1,unchanged
+LMS,Spider,Wayi Spider,team::spider,team::wayispider,True,2,manual_review
+LMS,Wayi Spider,Wayi Spider,team::wayispider,team::wayispider,False,2,manual_review
+LMS,XG,XG,team::xg,team::xg,False,1,unchanged
+LPL,BLG,BLG,team::blg,team::blg,False,1,unchanged
+LPL,DAN,DAN,team::dan,team::dan,False,1,unchanged
+LPL,DMO,Dominus Esports,team::dmo,team::dominusesports,True,2,manual_review
+LPL,SDG,Dominus Esports,team::sdg,team::dominusesports,True,2,manual_review
+LPL,EPA,EPA,team::epa,team::epa,False,1,unchanged
+LPL,EDG,Edward Gaming,team::edg,team::edwardgaming,True,3,cargo_short_plus_roster|normalized_name
+LPL,EDward Gaming,Edward Gaming,team::edwardgaming,team::edwardgaming,True,3,cargo_short_plus_roster|normalized_name
+LPL,Edward Gaming,Edward Gaming,team::edwardgaming,team::edwardgaming,False,3,cargo_short_plus_roster|normalized_name
+LPL,EP,Energy Pacemaker,team::ep,team::energypacemaker,True,2,cargo_short_plus_roster
+LPL,Energy Pacemaker,Energy Pacemaker,team::energypacemaker,team::energypacemaker,False,2,cargo_short_plus_roster
+LPL,FPX,FPX,team::fpx,team::fpx,False,1,unchanged
+LPL,GMT,Game Talents,team::gmt,team::gametalents,True,2,manual_review
+LPL,Game Talents,Game Talents,team::gametalents,team::gametalents,False,2,manual_review
+LPL,GT,Gamtee,team::gt,team::gamtee,True,2,cargo_short_plus_roster|manual_review
+LPL,Gamtee,Gamtee,team::gamtee,team::gamtee,False,2,cargo_short_plus_roster|manual_review
+LPL,HYG,HYG,team::hyg,team::hyg,False,1,unchanged
+LPL,IMAY,IMAY,team::imay,team::imay,False,1,unchanged
+LPL,IG,Invictus Gaming,team::ig,team::invictusgaming,True,3,cargo_short_plus_roster
+LPL,Invictus Gaming,Invictus Gaming,team::invictusgaming,team::invictusgaming,False,3,cargo_short_plus_roster
+LPL,iG,Invictus Gaming,team::ig,team::invictusgaming,True,3,cargo_short_plus_roster
+LPL,JDG,JDG,team::jdg,team::jdg,False,1,unchanged
+LPL,LGD,LGD Gaming,team::lgd,team::lgdgaming,True,3,cargo_short_plus_roster|normalized_name
+LPL,LGD Gaming,LGD Gaming,team::lgdgaming,team::lgdgaming,False,3,cargo_short_plus_roster|normalized_name
+LPL,LGd,LGD Gaming,team::lgd,team::lgdgaming,True,3,cargo_short_plus_roster|normalized_name
+LPL,LNG,LNG,team::lng,team::lng,False,1,unchanged
+LPL,M3,Masters 3,team::m3,team::masters3,True,3,cargo_short_plus_roster|manual_review
+LPL,Master3,Masters 3,team::master3,team::masters3,True,3,cargo_short_plus_roster|manual_review
+LPL,Masters 3,Masters 3,team::masters3,team::masters3,False,3,cargo_short_plus_roster|manual_review
+LPL,Newbee,Newbee,team::newbee,team::newbee,False,1,unchanged
+LPL,OMG,Oh My God,team::omg,team::ohmygod,True,2,cargo_short_plus_roster
+LPL,Oh My God,Oh My God,team::ohmygod,team::ohmygod,False,2,cargo_short_plus_roster
+LPL,QG,QG,team::qg,team::qg,False,1,unchanged
+LPL,QGR,QGR,team::qgr,team::qgr,False,1,unchanged
+LPL,Rogue Warriors,Rogue Warriors,team::roguewarriors,team::roguewarriors,False,1,unchanged
+LPL,RNG,Royal Never Give Up,team::rng,team::royalnevergiveup,True,2,cargo_short_plus_roster
+LPL,Royal Never Give Up,Royal Never Give Up,team::royalnevergiveup,team::royalnevergiveup,False,2,cargo_short_plus_roster
+LPL,SNG,SNG,team::sng,team::sng,False,1,unchanged
+LPL,Saint,Saint,team::saint,team::saint,False,1,unchanged
+LPL,Snake,Snake Esports,team::snake,team::snakeesports,True,3,normalized_name
+LPL,Snake Esports,Snake Esports,team::snakeesports,team::snakeesports,False,3,normalized_name
+LPL,snake,Snake Esports,team::snake,team::snakeesports,True,3,normalized_name
+LPL,SH Royal,Star Horn Royal Club,team::shroyal,team::starhornroyalclub,True,4,manual_review|normalized_name
+LPL,SH Royal Club,Star Horn Royal Club,team::shroyalclub,team::starhornroyalclub,True,4,manual_review|normalized_name
+LPL,SHRC,Star Horn Royal Club,team::shrc,team::starhornroyalclub,True,4,manual_review|normalized_name
+LPL,Star Horn Royal Club,Star Horn Royal Club,team::starhornroyalclub,team::starhornroyalclub,False,4,manual_review|normalized_name
+LPL,Suning,Suning,team::suning,team::suning,False,1,unchanged
+LPL,King,Team King,team::king,team::teamking,True,2,normalized_name
+LPL,Team King,Team King,team::teamking,team::teamking,False,2,normalized_name
+LPL,Team WE,Team WE,team::teamwe,team::teamwe,False,2,cargo_short_plus_roster
+LPL,WE,Team WE,team::we,team::teamwe,True,2,cargo_short_plus_roster
+LPL,TES,Top Esports,team::tes,team::topesports,True,2,manual_review
+LPL,TOP,Top Esports,team::top,team::topesports,True,2,manual_review
+LPL,UP,UP,team::up,team::up,False,1,unchanged
+LPL,V5,V5,team::v5,team::v5,False,1,unchanged
+LPL,VG,Vici Gaming,team::vg,team::vicigaming,True,2,cargo_short_plus_roster
+LPL,Vici Gaming,Vici Gaming,team::vicigaming,team::vicigaming,False,2,cargo_short_plus_roster
+OPL,4not.oce,4not.oce,team::4notoce,team::4notoce,False,1,unchanged
+OPL,ABS,Absolute,team::abs,team::absolute,True,2,cargo_short_plus_roster
+OPL,Absolute,Absolute,team::absolute,team::absolute,False,2,cargo_short_plus_roster
+OPL,Abyss,Abyss Esports,team::abyss,team::abyssesports,True,2,normalized_name
+OPL,Abyss Esports,Abyss Esports,team::abyssesports,team::abyssesports,False,2,normalized_name
+OPL,AV,Avant Gaming,team::av,team::avantgaming,True,2,cargo_short_plus_roster
+OPL,Avant Gaming,Avant Gaming,team::avantgaming,team::avantgaming,False,2,cargo_short_plus_roster
+OPL,Avant Garde,Avant Garde,team::avantgarde,team::avantgarde,False,1,unchanged
+OPL,BMR,BMR,team::bmr,team::bmr,False,1,unchanged
+OPL,CHF,CHF,team::chf,team::chf,False,1,unchanged
+OPL,DIW,Dire Wolves,team::diw,team::direwolves,True,3,cargo_short_plus_roster|manual_review
+OPL,DW,Dire Wolves,team::dw,team::direwolves,True,3,cargo_short_plus_roster|manual_review
+OPL,Dire Wolves,Dire Wolves,team::direwolves,team::direwolves,False,3,cargo_short_plus_roster|manual_review
+OPL,Exile5,Exile5,team::exile5,team::exile5,False,1,unchanged
+OPL,GRV,GRV,team::grv,team::grv,False,1,unchanged
+OPL,HLN,HLN,team::hln,team::hln,False,1,unchanged
+OPL,INF,INF,team::inf,team::inf,False,1,unchanged
+OPL,LGC,Legacy Esports,team::lgc,team::legacyesports,True,5,cargo_short_plus_roster|normalized_name
+OPL,Legacy,Legacy Esports,team::legacy,team::legacyesports,True,5,cargo_short_plus_roster|normalized_name
+OPL,Legacy Esports,Legacy Esports,team::legacyesports,team::legacyesports,False,5,cargo_short_plus_roster|normalized_name
+OPL,Legacy eSports,Legacy Esports,team::legacyesports,team::legacyesports,True,5,cargo_short_plus_roster|normalized_name
+OPL,legacy,Legacy Esports,team::legacy,team::legacyesports,True,5,cargo_short_plus_roster|normalized_name
+OPL,MMM,MMM,team::mmm,team::mmm,False,1,unchanged
+OPL,ORD,ORD,team::ord,team::ord,False,1,unchanged
+OPL,RGC,RGC,team::rgc,team::rgc,False,1,unchanged
+OPL,Rich Gang,Rich Gang,team::richgang,team::richgang,False,1,unchanged
+OPL,Sin,Sin Gaming,team::sin,team::singaming,True,2,cargo_short_plus_roster|normalized_name
+OPL,Sin Gaming,Sin Gaming,team::singaming,team::singaming,False,2,cargo_short_plus_roster|normalized_name
+OPL,SF,Sudden Fear,team::sf,team::suddenfear,True,3,cargo_short_plus_roster|normalized_name
+OPL,Sudden Fear,Sudden Fear,team::suddenfear,team::suddenfear,False,3,cargo_short_plus_roster|normalized_name
+OPL,sudden fear,Sudden Fear,team::suddenfear,team::suddenfear,True,3,cargo_short_plus_roster|normalized_name
+OPL,TM gaming,TM gaming,team::tmgaming,team::tmgaming,False,1,unchanged
+OPL,TTC,TTC,team::ttc,team::ttc,False,1,unchanged
+OPL,TM,Tainted Minds,team::tm,team::taintedminds,True,2,cargo_short_plus_roster
+OPL,Tainted Minds,Tainted Minds,team::taintedminds,team::taintedminds,False,2,cargo_short_plus_roster
+OPL,Immunity,Team Immunity,team::immunity,team::teamimmunity,True,2,normalized_name
+OPL,Team Immunity,Team Immunity,team::teamimmunity,team::teamimmunity,False,2,normalized_name
+OPL,Chiefs,The Chiefs eSports Club,team::chiefs,team::thechiefsesportsclub,True,2,manual_review
+OPL,The Chiefs eSports Club,The Chiefs eSports Club,team::thechiefsesportsclub,team::thechiefsesportsclub,False,2,manual_review
+OPL,Trident,Trident,team::trident,team::trident,False,1,unchanged
+TCL,1907 Fenerbahçe Esports,1907 Fenerbahçe Esports,team::1907fenerbahceesports,team::1907fenerbahceesports,False,3,manual_review
+TCL,FB,1907 Fenerbahçe Esports,team::fb,team::1907fenerbahceesports,True,3,manual_review
+TCL,FEN,1907 Fenerbahçe Esports,team::fen,team::1907fenerbahceesports,True,3,manual_review
+TCL,ATLAS eSports Team,ATLAS eSports Team,team::atlasesportsteam,team::atlasesportsteam,False,2,normalized_name
+TCL,Atlas,ATLAS eSports Team,team::atlas,team::atlasesportsteam,True,2,normalized_name
+TCL,BPI,BPI,team::bpi,team::bpi,False,1,unchanged
+TCL,Beşiktaş Esports,Beşiktaş e-Sports Club,team::besiktasesports,team::besiktasesportsclub,True,2,normalized_name
+TCL,Beşiktaş e-Sports Club,Beşiktaş e-Sports Club,team::besiktasesportsclub,team::besiktasesportsclub,False,2,normalized_name
+TCL,BJK.OH,Beşiktaş.Oyun Hizmetleri,team::bjkoh,team::besiktasoyunhizmetleri,True,3,cargo_short_plus_roster|normalized_name
+TCL,Besiktas.Oyun Hizmetleri,Beşiktaş.Oyun Hizmetleri,team::besiktasoyunhizmetleri,team::besiktasoyunhizmetleri,True,3,cargo_short_plus_roster|normalized_name
+TCL,Beşiktaş.Oyun Hizmetleri,Beşiktaş.Oyun Hizmetleri,team::besiktasoyunhizmetleri,team::besiktasoyunhizmetleri,False,3,cargo_short_plus_roster|normalized_name
+TCL,BS,Bursaspor Esports,team::bs,team::bursasporesports,True,3,cargo_short_plus_roster|manual_review
+TCL,BUR,Bursaspor Esports,team::bur,team::bursasporesports,True,3,cargo_short_plus_roster|manual_review
+TCL,Bursaspor Esports,Bursaspor Esports,team::bursasporesports,team::bursasporesports,False,3,cargo_short_plus_roster|manual_review
+TCL,CILEKLER,CILEKLER,team::cilekler,team::cilekler,False,2,cargo_short_plus_roster
+TCL,CLK,CILEKLER,team::clk,team::cilekler,True,2,cargo_short_plus_roster
+TCL,CEC,Crew e-Sports Club,team::cec,team::crewesportsclub,True,2,cargo_short_plus_roster
+TCL,Crew e-Sports Club,Crew e-Sports Club,team::crewesportsclub,team::crewesportsclub,False,2,cargo_short_plus_roster
+TCL,DP,Dark Passage,team::dp,team::darkpassage,True,2,cargo_short_plus_roster
+TCL,Dark Passage,Dark Passage,team::darkpassage,team::darkpassage,False,2,cargo_short_plus_roster
+TCL,GAL,Galakticos,team::gal,team::galakticos,True,2,cargo_short_plus_roster
+TCL,Galakticos,Galakticos,team::galakticos,team::galakticos,False,2,cargo_short_plus_roster
+TCL,Galatasaray Esports,Galatasaray Esports,team::galatasarayesports,team::galatasarayesports,False,1,unchanged
+TCL,HWA,HWA Gaming,team::hwa,team::hwagaming,True,2,cargo_short_plus_roster|manual_review|normalized_name
+TCL,HWA Gaming,HWA Gaming,team::hwagaming,team::hwagaming,False,2,cargo_short_plus_roster|manual_review|normalized_name
+TCL,Istanbul Wild Cats,Istanbul Wild Cats,team::istanbulwildcats,team::istanbulwildcats,False,1,unchanged
+TCL,NR1,NumberOne Esports,team::nr1,team::numberoneesports,True,2,cargo_short_plus_roster
+TCL,NumberOne Esports,NumberOne Esports,team::numberoneesports,team::numberoneesports,False,2,cargo_short_plus_roster
+TCL,Oyun Hizmetleri,Oyun Hizmetleri,team::oyunhizmetleri,team::oyunhizmetleri,False,1,unchanged
+TCL,P3P,P3P,team::p3p,team::p3p,False,1,unchanged
+TCL,RBE,Royal Bandits,team::rbe,team::royalbandits,True,2,cargo_short_plus_roster
+TCL,Royal Bandits,Royal Bandits,team::royalbandits,team::royalbandits,False,2,cargo_short_plus_roster
+TCL,RY,Royal Youth,team::ry,team::royalyouth,True,2,manual_review
+TCL,Royal Youth,Royal Youth,team::royalyouth,team::royalyouth,False,2,manual_review
+TCL,SUP,SuperMassive eSports,team::sup,team::supermassiveesports,True,2,manual_review
+TCL,SuperMassive eSports,SuperMassive eSports,team::supermassiveesports,team::supermassiveesports,False,2,manual_review
+TCL,AUR,Team AURORA,team::aur,team::teamaurora,True,2,cargo_short_plus_roster
+TCL,Team AURORA,Team AURORA,team::teamaurora,team::teamaurora,False,2,cargo_short_plus_roster
+TCL,Team Turquality,Team Turquality,team::teamturquality,team::teamturquality,False,1,unchanged
+TCL,YCE,YouthCrew Esports,team::yce,team::youthcrewesports,True,3,manual_review|normalized_name
+TCL,YouthCrew,YouthCrew Esports,team::youthcrew,team::youthcrewesports,True,3,manual_review|normalized_name
+TCL,YouthCrew Esports,YouthCrew Esports,team::youthcrewesports,team::youthcrewesports,False,3,manual_review|normalized_name
+TCL,ZONE,ZONE,team::zone,team::zone,False,1,unchanged
