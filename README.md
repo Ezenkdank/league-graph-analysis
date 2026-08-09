@@ -2,7 +2,7 @@
 
 Bu depo, profesyonel League of Legends oyuncuları ile takım lineage'ları
 arasındaki ilişkileri yönsüz ve ağırlıklı bir bipartite graph olarak inceler.
-Ana çalışma yüzeyi `code/league-graph.ipynb` dosyasıdır.
+Ana çalışma yüzeyi `code/league-graph-v3.ipynb` dosyasıdır.
 
 ## Kapsam
 
@@ -19,8 +19,11 @@ Notebook:
 3. NetworkX ile bipartite graph kurar.
 4. Yoğunluk, derece, bileşenler, bipartite clustering ve ağırlıklı strength
    ölçülerini hesaplar.
-5. Lig içi başarı ile kaydedilmiş kadro sürekliliği arasındaki gözlemsel
-   ilişkiyi inceler.
+5. Takım projeksiyonunda merkezilik, lig karışımı ve köprü aktörleri inceler.
+6. Louvain, greedy modularity, label propagation, Leiden ve Infomap community
+   sonuçlarını modularity, coverage, conductance, NMI ve ARI ile karşılaştırır.
+7. Ağ konumu ile domestic başarı ve kaydedilmiş uluslararası katılım arasındaki
+   gözlemsel ilişkiyi inceler.
 
 ## Kurulum ve çalıştırma
 
@@ -30,12 +33,11 @@ Python 3.12 önerilir.
 python -m venv .venv
 .\.venv\Scripts\Activate.ps1
 python -m pip install -r requirements.txt
-jupyter notebook code/league-graph.ipynb
+jupyter notebook code/league-graph-v3.ipynb
 ```
 
-Notebook varsayılan olarak dosya üretmez. Çıktıları yazmak için son bölümdeki
-`EXPORT_FILES` değerini `True` yapın; oluşturulan `outputs/` klasörü Git
-tarafından izlenmez.
+Notebook dosya üretmez; tablolar ve şekiller çalıştırılmış notebook çıktılarında
+saklanır.
 
 ## Veri kaynağı ve yeniden üretilebilirlik
 
