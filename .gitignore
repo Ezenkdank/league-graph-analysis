@@ -31,5 +31,8 @@ tmp/
 Thumbs.db
 desktop.ini
 
-# Course handout: keep locally, do not redistribute from this repository
-BİL403-503-proje-bilgi.docx
+# Course artifacts: keep locally, do not redistribute from this repository
+/BİL403-503-proje-bilgi.docx
+/231401014_ali_turkucu_submission/
+/demo/
+/Profesyonel League of Legends Oyuncu-Takım Hareketliliği Ağı.pptx
