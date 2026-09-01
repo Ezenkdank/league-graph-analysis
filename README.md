@@ -1,77 +1,49 @@
 # League of Legends player-team graph analysis
 
-Bu depo, profesyonel League of Legends oyuncuları ile takım lineage'ları
-arasındaki ilişkileri yönsüz ve ağırlıklı bir bipartite graph olarak inceler.
-Ana çalışma yüzeyi `code/league-graph-v3.ipynb` dosyasıdır.
+This repository explores relationships between professional League of Legends
+players and team lineages as an undirected, weighted bipartite graph. The main
+analysis is available in [`code/league-graph.ipynb`](code/league-graph.ipynb).
 
-## Kapsam
+## Scope
 
-Mevcut veri 2015-2019 sezonlarını ve şu on ligi kapsar:
+The dataset covers the 2015–2019 seasons across ten leagues: `CBLOL`, `LCK`,
+`LCL`, `LCS`, `LEC`, `LJL`, `LMS`, `LPL`, `OPL`, and `TCL`.
 
-`CBLOL`, `LCK`, `LCL`, `LCS`, `LEC`, `LJL`, `LMS`, `LPL`, `OPL`, `TCL`.
+The notebook builds and analyzes the player-team graph, examines centrality and
+cross-league connections, compares five community detection methods, and
+explores the observed relationship between network position and competitive
+results.
 
-Notebook:
+## Run
 
-1. `data/processed/affiliations.csv` dosyasını yükler ve veri sözleşmesini
-   doğrular.
-2. Tarihsel/rebrand satırlarını oyuncu-takım lineage kenarları altında
-   toplulaştırır.
-3. NetworkX ile bipartite graph kurar.
-4. Yoğunluk, derece, bileşenler, bipartite clustering ve ağırlıklı strength
-   ölçülerini hesaplar.
-5. Takım projeksiyonunda merkezilik, lig karışımı ve köprü aktörleri inceler.
-6. Louvain, greedy modularity, label propagation, Leiden ve Infomap community
-   sonuçlarını modularity, coverage, conductance, NMI ve ARI ile karşılaştırır.
-7. Ağ konumu ile domestic başarı ve kaydedilmiş uluslararası katılım arasındaki
-   gözlemsel ilişkiyi inceler.
-
-## Kurulum ve çalıştırma
-
-Python 3.12 önerilir.
+Python 3.12 is recommended.
 
 ```powershell
 python -m venv .venv
 .\.venv\Scripts\Activate.ps1
 python -m pip install -r requirements.txt
-jupyter notebook code/league-graph-v3.ipynb
+python -m jupyterlab code/league-graph.ipynb
 ```
 
-Notebook dosya üretmez; tablolar ve şekiller çalıştırılmış notebook çıktılarında
-saklanır.
+Tables and figures are stored in the executed notebook; running it does not
+create additional output files.
 
-## Veri kaynağı ve yeniden üretilebilirlik
+## Data
 
-İşlenmiş tablolar Leaguepedia'nın Fandom üzerindeki MediaWiki Cargo API
-verilerinden türetilmiştir. Orijinal ham yanıtlar ve veri toplama scripti
-korunmadığı için tam sorgu parametreleri bugün kesin olarak doğrulanamıyor.
-Mevcut sütunların işaret ettiği muhtemel toplama ve dönüştürme zinciri,
-kanıt/çıkarım ayrımıyla [DATA_PROVENANCE.md](DATA_PROVENANCE.md) içinde
-belgelenmiştir.
+The processed tables were derived from Leaguepedia's MediaWiki Cargo API. The
+original raw responses and collection script are unavailable, so the CSV files
+should be treated as a fixed research snapshot rather than a current or fully
+reproducible copy of Leaguepedia.
 
-Bu sınırlama nedeniyle depodaki CSV'ler sabit bir araştırma snapshot'ı olarak
-değerlendirilmelidir; güncel Leaguepedia verisinin eksiksiz bir aynası değildir.
+See [`data/README.md`](data/README.md) for the data dictionary and
+[`DATA_PROVENANCE.md`](DATA_PROVENANCE.md) for the documented reconstruction of
+the collection and transformation process.
 
-## Veri dosyaları
+## Data license and attribution
 
-- `data/processed/affiliations_clean.csv`: İlk tekilleştirilmiş oyuncu-takım
-  tablosu; 3.622 satır.
-- `data/processed/team_alias_map.csv`: Takım adı/lineage eşleme kararları;
-  otomatik ve elle gözden geçirilmiş kuralları içerir.
-- `data/processed/affiliations.csv`: Alias/lineage eşlemeleri uygulandıktan
-  sonraki analiz girdisi; 3.561 satır, 2.029 oyuncu ve 244 takım lineage'ı.
+Leaguepedia-derived data and the processed CSV files are provided under CC
+BY-SA 3.0 with source attribution. See
+[`DATA_LICENSE.md`](DATA_LICENSE.md) for details.
 
-Veri alanlarının ayrıntıları için [data/README.md](data/README.md) dosyasına
-bakın.
-
-## Lisans ve atıf
-
-Leaguepedia kaynaklı veri ve türetilmiş CSV'ler için
-[DATA_LICENSE.md](DATA_LICENSE.md) geçerlidir. Leaguepedia, lisanslayabildiği
-metinsel ve grafik içeriği CC BY-SA 3.0 altında yayımlar; bu nedenle veri
-dosyaları da aynı lisansla ve kaynak atfıyla sunulmaktadır.
-
-Kaynak kod için henüz ayrı bir açık kaynak lisansı seçilmemiştir. Bir lisans
-eklenene kadar kodun yeniden kullanımına otomatik izin verilmiş sayılmaz.
-
-Bu proje Riot Games tarafından desteklenmez veya onaylanmaz. League of Legends
-ve ilgili markalar kendi hak sahiplerine aittir.
+This project is not endorsed by Riot Games. League of Legends and related
+trademarks belong to their respective owners.
