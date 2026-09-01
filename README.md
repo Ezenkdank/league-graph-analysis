@@ -36,14 +36,14 @@ should be treated as a fixed research snapshot rather than a current or fully
 reproducible copy of Leaguepedia.
 
 See [`data/README.md`](data/README.md) for the data dictionary and
-[`DATA_PROVENANCE.md`](DATA_PROVENANCE.md) for the documented reconstruction of
+[`data/PROVENANCE.md`](data/PROVENANCE.md) for the documented reconstruction of
 the collection and transformation process.
 
 ## Data license and attribution
 
 Leaguepedia-derived data and the processed CSV files are provided under CC
 BY-SA 3.0 with source attribution. See
-[`DATA_LICENSE.md`](DATA_LICENSE.md) for details.
+[`data/LICENSE.md`](data/LICENSE.md) for details.
 
 This project is not endorsed by Riot Games. League of Legends and related
 trademarks belong to their respective owners.
